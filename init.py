@@ -4,6 +4,7 @@ from os import path, name, geteuid
 
 parser = ArgumentParser(description='My Example Description (Change this in init.py)')
 parser.add_argument('--debug', action='store_true', help='Enable debug output')
+parser.add_argument('--version', action='version', version='1.0.0')
 args = parser.parse_args()
 
 INSTALLED = (path.dirname(path.abspath(__file__)) == path.join(path.sep, "usr", "bin"))
