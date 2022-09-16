@@ -1,0 +1,1 @@
+python3 -m nuitka --onefile --standalone --include-data-file=./hashes.md5=./hashes.md5 --include-data-file=./main.conf=./main.conf --include-data-file=./README.md=./README.md5 ./init.py
