@@ -1,0 +1,49 @@
+[2022-09-16T11:54:55.717125 88047] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:55.717125 88047] Config: (default) base_dir = 
+[2022-09-16T11:54:55.717125 88047] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:55.717125 88047] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:55.717125 88047] Config: (default) compiler = 
+[2022-09-16T11:54:55.717125 88047] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:55.717125 88047] Config: (default) compression = false
+[2022-09-16T11:54:55.717125 88047] Config: (default) compression_level = 6
+[2022-09-16T11:54:55.717125 88047] Config: (default) cpp_extension = 
+[2022-09-16T11:54:55.717125 88047] Config: (default) debug = false
+[2022-09-16T11:54:55.717125 88047] Config: (default) depend_mode = false
+[2022-09-16T11:54:55.717125 88047] Config: (default) direct_mode = true
+[2022-09-16T11:54:55.717125 88047] Config: (default) disable = false
+[2022-09-16T11:54:55.717125 88047] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:55.717125 88047] Config: (default) hard_link = false
+[2022-09-16T11:54:55.717125 88047] Config: (default) hash_dir = true
+[2022-09-16T11:54:55.717125 88047] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:55.717125 88047] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:55.717125 88047] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:55.717125 88047] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.onefile-build/ccache-88037.txt
+[2022-09-16T11:54:55.717125 88047] Config: (default) max_files = 0
+[2022-09-16T11:54:55.717125 88047] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:55.717125 88047] Config: (default) path = 
+[2022-09-16T11:54:55.717125 88047] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:55.717125 88047] Config: (default) prefix_command = 
+[2022-09-16T11:54:55.717125 88047] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:55.717125 88047] Config: (default) read_only = false
+[2022-09-16T11:54:55.717125 88047] Config: (default) read_only_direct = false
+[2022-09-16T11:54:55.717125 88047] Config: (default) recache = false
+[2022-09-16T11:54:55.717125 88047] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:55.717125 88047] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:55.717125 88047] Config: (default) stats = true
+[2022-09-16T11:54:55.717125 88047] Config: (default) temporary_dir = 
+[2022-09-16T11:54:55.717125 88047] Config: (default) umask = 
+[2022-09-16T11:54:55.717166 88047] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/OnefileBootstrap.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D__NUITKA_NO_ASSERT__ -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/inline_copy/zstd static_src/OnefileBootstrap.c
+[2022-09-16T11:54:55.717173 88047] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:55.717186 88047] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.onefile-build
+[2022-09-16T11:54:55.717220 88047] Source file: static_src/OnefileBootstrap.c
+[2022-09-16T11:54:55.717223 88047] Object file: static_src/OnefileBootstrap.o
+[2022-09-16T11:54:55.717230 88047] Trying direct lookup
+[2022-09-16T11:54:55.717299 88047] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/4/5/e8816b0017db152f12ab6ebf6325a7-32224.manifest
+[2022-09-16T11:54:55.720789 88047] Got object file hash from manifest
+[2022-09-16T11:54:55.720858 88047] Copying /home/derek/.cache/Nuitka/ccache/f/7/b53b4e341000b2356bbe8e889b8896-501933.o to static_src/OnefileBootstrap.o via static_src/OnefileBootstrap.o.derek-Latitude-7480.88047.Z5lmvS (uncompressed)
+[2022-09-16T11:54:55.720994 88047] Created from cache: /home/derek/.cache/Nuitka/ccache/f/7/b53b4e341000b2356bbe8e889b8896-501933.o -> static_src/OnefileBootstrap.o
+[2022-09-16T11:54:55.721007 88047] Succeeded getting cached result
+[2022-09-16T11:54:55.721012 88047] Result: cache hit (direct)
+[2022-09-16T11:54:55.721025 88047] Acquired lock /home/derek/.cache/Nuitka/ccache/f/stats.lock
+[2022-09-16T11:54:55.721103 88047] Releasing lock /home/derek/.cache/Nuitka/ccache/f/stats.lock
+[2022-09-16T11:54:55.721107 88047] Unlink /home/derek/.cache/Nuitka/ccache/f/stats.lock

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Example Python Compiling
+Comment=An exemple python program made with nuitka and appimagetool
+Exec=AppRun
+Icon=icon
+Terminal=false
+Categories=
+X-AppImage-Version=014506c
+Name[en_US]=Example Python Compiling
+

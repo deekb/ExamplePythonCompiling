@@ -1,0 +1,686 @@
+[2022-09-16T11:54:52.483548 87643] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.483548 87643] Config: (default) base_dir = 
+[2022-09-16T11:54:52.483548 87643] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.483548 87643] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.483548 87643] Config: (default) compiler = 
+[2022-09-16T11:54:52.483548 87643] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.483548 87643] Config: (default) compression = false
+[2022-09-16T11:54:52.483548 87643] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.483548 87643] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.483548 87643] Config: (default) debug = false
+[2022-09-16T11:54:52.483548 87643] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.483548 87643] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.483548 87643] Config: (default) disable = false
+[2022-09-16T11:54:52.483548 87643] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.483548 87643] Config: (default) hard_link = false
+[2022-09-16T11:54:52.483548 87643] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.483548 87643] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.483548 87643] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.483548 87643] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.483548 87643] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.483548 87643] Config: (default) max_files = 0
+[2022-09-16T11:54:52.483548 87643] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.483548 87643] Config: (default) path = 
+[2022-09-16T11:54:52.483548 87643] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.483548 87643] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.483548 87643] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.483548 87643] Config: (default) read_only = false
+[2022-09-16T11:54:52.483548 87643] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.483548 87643] Config: (default) recache = false
+[2022-09-16T11:54:52.483548 87643] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.483548 87643] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.483548 87643] Config: (default) stats = true
+[2022-09-16T11:54:52.483548 87643] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.483548 87643] Config: (default) umask = 
+[2022-09-16T11:54:52.483594 87643] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src __constants.c
+[2022-09-16T11:54:52.483602 87643] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.483614 87643] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.483667 87643] Source file: __constants.c
+[2022-09-16T11:54:52.483670 87643] Object file: __constants.o
+[2022-09-16T11:54:52.483679 87643] Trying direct lookup
+[2022-09-16T11:54:52.483713 87643] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/b/1/5e5d49f3d24417a9a75d51abe5f3fb-5768.manifest
+[2022-09-16T11:54:52.488771 87643] Got object file hash from manifest
+[2022-09-16T11:54:52.488845 87643] Copying /home/derek/.cache/Nuitka/ccache/9/c/aa917aae8cc13ec6b96068ab693e47-772781.o to __constants.o via __constants.o.derek-Latitude-7480.87643.lo7A8k (uncompressed)
+[2022-09-16T11:54:52.488893 87643] Created from cache: /home/derek/.cache/Nuitka/ccache/9/c/aa917aae8cc13ec6b96068ab693e47-772781.o -> __constants.o
+[2022-09-16T11:54:52.488906 87643] Succeeded getting cached result
+[2022-09-16T11:54:52.488911 87643] Result: cache hit (direct)
+[2022-09-16T11:54:52.488924 87643] Acquired lock /home/derek/.cache/Nuitka/ccache/9/stats.lock
+[2022-09-16T11:54:52.489007 87643] Releasing lock /home/derek/.cache/Nuitka/ccache/9/stats.lock
+[2022-09-16T11:54:52.489011 87643] Unlink /home/derek/.cache/Nuitka/ccache/9/stats.lock
+[2022-09-16T11:54:52.493853 87646] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.493853 87646] Config: (default) base_dir = 
+[2022-09-16T11:54:52.493853 87646] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.493853 87646] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.493853 87646] Config: (default) compiler = 
+[2022-09-16T11:54:52.493853 87646] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.493853 87646] Config: (default) compression = false
+[2022-09-16T11:54:52.493853 87646] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.493853 87646] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.493853 87646] Config: (default) debug = false
+[2022-09-16T11:54:52.493853 87646] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.493853 87646] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.493853 87646] Config: (default) disable = false
+[2022-09-16T11:54:52.493853 87646] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.493853 87646] Config: (default) hard_link = false
+[2022-09-16T11:54:52.493853 87646] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.493853 87646] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.493853 87646] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.493853 87646] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.493853 87646] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.493853 87646] Config: (default) max_files = 0
+[2022-09-16T11:54:52.493853 87646] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.493853 87646] Config: (default) path = 
+[2022-09-16T11:54:52.493853 87646] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.493853 87646] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.493853 87646] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.493853 87646] Config: (default) read_only = false
+[2022-09-16T11:54:52.493853 87646] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.493853 87646] Config: (default) recache = false
+[2022-09-16T11:54:52.493853 87646] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.493853 87646] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.493853 87646] Config: (default) stats = true
+[2022-09-16T11:54:52.493853 87646] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.493853 87646] Config: (default) umask = 
+[2022-09-16T11:54:52.493895 87646] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src __helpers.c
+[2022-09-16T11:54:52.493909 87646] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.493921 87646] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.493981 87646] Source file: __helpers.c
+[2022-09-16T11:54:52.493986 87646] Object file: __helpers.o
+[2022-09-16T11:54:52.493994 87646] Trying direct lookup
+[2022-09-16T11:54:52.494018 87646] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/7/7/73a53c6bc68dbdc351922159580ca9-1356.manifest
+[2022-09-16T11:54:52.499495 87646] Got object file hash from manifest
+[2022-09-16T11:54:52.499567 87646] Copying /home/derek/.cache/Nuitka/ccache/a/3/293e114fcfca04b18d67db9cfc9ece-770148.o to __helpers.o via __helpers.o.derek-Latitude-7480.87646.0OJRhz (uncompressed)
+[2022-09-16T11:54:52.499604 87646] Created from cache: /home/derek/.cache/Nuitka/ccache/a/3/293e114fcfca04b18d67db9cfc9ece-770148.o -> __helpers.o
+[2022-09-16T11:54:52.499620 87646] Succeeded getting cached result
+[2022-09-16T11:54:52.499627 87646] Result: cache hit (direct)
+[2022-09-16T11:54:52.499647 87646] Acquired lock /home/derek/.cache/Nuitka/ccache/a/stats.lock
+[2022-09-16T11:54:52.499765 87646] Releasing lock /home/derek/.cache/Nuitka/ccache/a/stats.lock
+[2022-09-16T11:54:52.499771 87646] Unlink /home/derek/.cache/Nuitka/ccache/a/stats.lock
+[2022-09-16T11:54:52.500860 87649] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.500860 87649] Config: (default) base_dir = 
+[2022-09-16T11:54:52.500860 87649] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.500860 87649] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.500860 87649] Config: (default) compiler = 
+[2022-09-16T11:54:52.500860 87649] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.500860 87649] Config: (default) compression = false
+[2022-09-16T11:54:52.500860 87649] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.500860 87649] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.500860 87649] Config: (default) debug = false
+[2022-09-16T11:54:52.500860 87649] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.500860 87649] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.500860 87649] Config: (default) disable = false
+[2022-09-16T11:54:52.500860 87649] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.500860 87649] Config: (default) hard_link = false
+[2022-09-16T11:54:52.500860 87649] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.500860 87649] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.500860 87649] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.500860 87649] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.500860 87649] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.500860 87649] Config: (default) max_files = 0
+[2022-09-16T11:54:52.500860 87649] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.500860 87649] Config: (default) path = 
+[2022-09-16T11:54:52.500860 87649] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.500860 87649] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.500860 87649] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.500860 87649] Config: (default) read_only = false
+[2022-09-16T11:54:52.500860 87649] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.500860 87649] Config: (default) recache = false
+[2022-09-16T11:54:52.500860 87649] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.500860 87649] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.500860 87649] Config: (default) stats = true
+[2022-09-16T11:54:52.500860 87649] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.500860 87649] Config: (default) umask = 
+[2022-09-16T11:54:52.500899 87649] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src __loader.c
+[2022-09-16T11:54:52.500912 87649] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.500924 87649] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.500979 87649] Source file: __loader.c
+[2022-09-16T11:54:52.500982 87649] Object file: __loader.o
+[2022-09-16T11:54:52.500990 87649] Trying direct lookup
+[2022-09-16T11:54:52.501186 87649] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/9/e/be4787c0953ecd3b22d62b703cc450-74153.manifest
+[2022-09-16T11:54:52.505022 87649] Got object file hash from manifest
+[2022-09-16T11:54:52.505096 87649] Copying /home/derek/.cache/Nuitka/ccache/0/1/46b9b0c5a27aaf4e05635bb44e8617-575202.o to __loader.o via __loader.o.derek-Latitude-7480.87649.hUnMzP (uncompressed)
+[2022-09-16T11:54:52.505165 87649] Created from cache: /home/derek/.cache/Nuitka/ccache/0/1/46b9b0c5a27aaf4e05635bb44e8617-575202.o -> __loader.o
+[2022-09-16T11:54:52.505178 87649] Succeeded getting cached result
+[2022-09-16T11:54:52.505184 87649] Result: cache hit (direct)
+[2022-09-16T11:54:52.505197 87649] Acquired lock /home/derek/.cache/Nuitka/ccache/0/stats.lock
+[2022-09-16T11:54:52.505278 87649] Releasing lock /home/derek/.cache/Nuitka/ccache/0/stats.lock
+[2022-09-16T11:54:52.505283 87649] Unlink /home/derek/.cache/Nuitka/ccache/0/stats.lock
+[2022-09-16T11:54:52.508721 87652] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.508721 87652] Config: (default) base_dir = 
+[2022-09-16T11:54:52.508721 87652] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.508721 87652] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.508721 87652] Config: (default) compiler = 
+[2022-09-16T11:54:52.508721 87652] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.508721 87652] Config: (default) compression = false
+[2022-09-16T11:54:52.508721 87652] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.508721 87652] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.508721 87652] Config: (default) debug = false
+[2022-09-16T11:54:52.508721 87652] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.508721 87652] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.508721 87652] Config: (default) disable = false
+[2022-09-16T11:54:52.508721 87652] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.508721 87652] Config: (default) hard_link = false
+[2022-09-16T11:54:52.508721 87652] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.508721 87652] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.508721 87652] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.508721 87652] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.508721 87652] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.508721 87652] Config: (default) max_files = 0
+[2022-09-16T11:54:52.508721 87652] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.508721 87652] Config: (default) path = 
+[2022-09-16T11:54:52.508721 87652] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.508721 87652] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.508721 87652] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.508721 87652] Config: (default) read_only = false
+[2022-09-16T11:54:52.508721 87652] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.508721 87652] Config: (default) recache = false
+[2022-09-16T11:54:52.508721 87652] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.508721 87652] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.508721 87652] Config: (default) stats = true
+[2022-09-16T11:54:52.508721 87652] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.508721 87652] Config: (default) umask = 
+[2022-09-16T11:54:52.508760 87652] Command line: /usr/bin/ccache /usr/bin/gcc -o module.Colors.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src module.Colors.c
+[2022-09-16T11:54:52.508773 87652] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.508786 87652] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.508840 87652] Source file: module.Colors.c
+[2022-09-16T11:54:52.508843 87652] Object file: module.Colors.o
+[2022-09-16T11:54:52.508852 87652] Trying direct lookup
+[2022-09-16T11:54:52.509085 87652] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/e/6/3a5577517176ee12521204dd8d7fbf-97670.manifest
+[2022-09-16T11:54:52.514129 87652] Got object file hash from manifest
+[2022-09-16T11:54:52.514200 87652] Copying /home/derek/.cache/Nuitka/ccache/e/2/980dd5edea9adc13aecce2eed8e530-851551.o to module.Colors.o via module.Colors.o.derek-Latitude-7480.87652.dwC3v0 (uncompressed)
+[2022-09-16T11:54:52.514285 87652] Created from cache: /home/derek/.cache/Nuitka/ccache/e/2/980dd5edea9adc13aecce2eed8e530-851551.o -> module.Colors.o
+[2022-09-16T11:54:52.514299 87652] Succeeded getting cached result
+[2022-09-16T11:54:52.514305 87652] Result: cache hit (direct)
+[2022-09-16T11:54:52.514318 87652] Acquired lock /home/derek/.cache/Nuitka/ccache/e/stats.lock
+[2022-09-16T11:54:52.514401 87652] Releasing lock /home/derek/.cache/Nuitka/ccache/e/stats.lock
+[2022-09-16T11:54:52.514405 87652] Unlink /home/derek/.cache/Nuitka/ccache/e/stats.lock
+[2022-09-16T11:54:52.519486 87655] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.519486 87655] Config: (default) base_dir = 
+[2022-09-16T11:54:52.519486 87655] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.519486 87655] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.519486 87655] Config: (default) compiler = 
+[2022-09-16T11:54:52.519486 87655] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.519486 87655] Config: (default) compression = false
+[2022-09-16T11:54:52.519486 87655] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.519486 87655] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.519486 87655] Config: (default) debug = false
+[2022-09-16T11:54:52.519486 87655] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.519486 87655] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.519486 87655] Config: (default) disable = false
+[2022-09-16T11:54:52.519486 87655] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.519486 87655] Config: (default) hard_link = false
+[2022-09-16T11:54:52.519486 87655] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.519486 87655] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.519486 87655] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.519486 87655] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.519486 87655] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.519486 87655] Config: (default) max_files = 0
+[2022-09-16T11:54:52.519486 87655] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.519486 87655] Config: (default) path = 
+[2022-09-16T11:54:52.519486 87655] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.519486 87655] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.519486 87655] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.519486 87655] Config: (default) read_only = false
+[2022-09-16T11:54:52.519486 87655] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.519486 87655] Config: (default) recache = false
+[2022-09-16T11:54:52.519486 87655] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.519486 87655] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.519486 87655] Config: (default) stats = true
+[2022-09-16T11:54:52.519486 87655] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.519486 87655] Config: (default) umask = 
+[2022-09-16T11:54:52.519526 87655] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src module.__main__.c
+[2022-09-16T11:54:52.519538 87655] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.519551 87655] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.519601 87655] Source file: module.__main__.c
+[2022-09-16T11:54:52.519604 87655] Object file: module.__main__.o
+[2022-09-16T11:54:52.519612 87655] Trying direct lookup
+[2022-09-16T11:54:52.520015 87655] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/5/d/f2c095977bab014747f664354e552b-203533.manifest
+[2022-09-16T11:54:52.524996 87655] Got object file hash from manifest
+[2022-09-16T11:54:52.525118 87655] Copying /home/derek/.cache/Nuitka/ccache/a/2/aa98539ca59bfdcd490055462c3e36-970855.o to module.__main__.o via module.__main__.o.derek-Latitude-7480.87655.GAQekf (uncompressed)
+[2022-09-16T11:54:52.525322 87655] Created from cache: /home/derek/.cache/Nuitka/ccache/a/2/aa98539ca59bfdcd490055462c3e36-970855.o -> module.__main__.o
+[2022-09-16T11:54:52.525338 87655] Succeeded getting cached result
+[2022-09-16T11:54:52.525344 87655] Result: cache hit (direct)
+[2022-09-16T11:54:52.525358 87655] Acquired lock /home/derek/.cache/Nuitka/ccache/a/stats.lock
+[2022-09-16T11:54:52.525458 87655] Releasing lock /home/derek/.cache/Nuitka/ccache/a/stats.lock
+[2022-09-16T11:54:52.525464 87655] Unlink /home/derek/.cache/Nuitka/ccache/a/stats.lock
+[2022-09-16T11:54:52.530380 87658] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.530380 87658] Config: (default) base_dir = 
+[2022-09-16T11:54:52.530380 87658] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.530380 87658] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.530380 87658] Config: (default) compiler = 
+[2022-09-16T11:54:52.530380 87658] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.530380 87658] Config: (default) compression = false
+[2022-09-16T11:54:52.530380 87658] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.530380 87658] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.530380 87658] Config: (default) debug = false
+[2022-09-16T11:54:52.530380 87658] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.530380 87658] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.530380 87658] Config: (default) disable = false
+[2022-09-16T11:54:52.530380 87658] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.530380 87658] Config: (default) hard_link = false
+[2022-09-16T11:54:52.530380 87658] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.530380 87658] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.530380 87658] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.530380 87658] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.530380 87658] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.530380 87658] Config: (default) max_files = 0
+[2022-09-16T11:54:52.530380 87658] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.530380 87658] Config: (default) path = 
+[2022-09-16T11:54:52.530380 87658] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.530380 87658] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.530380 87658] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.530380 87658] Config: (default) read_only = false
+[2022-09-16T11:54:52.530380 87658] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.530380 87658] Config: (default) recache = false
+[2022-09-16T11:54:52.530380 87658] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.530380 87658] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.530380 87658] Config: (default) stats = true
+[2022-09-16T11:54:52.530380 87658] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.530380 87658] Config: (default) umask = 
+[2022-09-16T11:54:52.530419 87658] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__parents_main__.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src module.__parents_main__.c
+[2022-09-16T11:54:52.530433 87658] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.530446 87658] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.530500 87658] Source file: module.__parents_main__.c
+[2022-09-16T11:54:52.530503 87658] Object file: module.__parents_main__.o
+[2022-09-16T11:54:52.530512 87658] Trying direct lookup
+[2022-09-16T11:54:52.530806 87658] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/5/9/e5b23a34b714d75eef193ac40752f8-151606.manifest
+[2022-09-16T11:54:52.535157 87661] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.535157 87661] Config: (default) base_dir = 
+[2022-09-16T11:54:52.535157 87661] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.535157 87661] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.535157 87661] Config: (default) compiler = 
+[2022-09-16T11:54:52.535157 87661] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.535157 87661] Config: (default) compression = false
+[2022-09-16T11:54:52.535157 87661] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.535157 87661] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.535157 87661] Config: (default) debug = false
+[2022-09-16T11:54:52.535157 87661] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.535157 87661] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.535157 87661] Config: (default) disable = false
+[2022-09-16T11:54:52.535157 87661] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.535157 87661] Config: (default) hard_link = false
+[2022-09-16T11:54:52.535157 87661] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.535157 87661] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.535157 87661] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.535157 87661] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.535157 87661] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.535157 87661] Config: (default) max_files = 0
+[2022-09-16T11:54:52.535157 87661] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.535157 87661] Config: (default) path = 
+[2022-09-16T11:54:52.535157 87661] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.535157 87661] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.535157 87661] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.535157 87661] Config: (default) read_only = false
+[2022-09-16T11:54:52.535157 87661] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.535157 87661] Config: (default) recache = false
+[2022-09-16T11:54:52.535157 87661] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.535157 87661] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.535157 87661] Config: (default) stats = true
+[2022-09-16T11:54:52.535157 87661] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.535157 87661] Config: (default) umask = 
+[2022-09-16T11:54:52.535218 87661] Command line: /usr/bin/ccache /usr/bin/gcc -o module.main.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src module.main.c
+[2022-09-16T11:54:52.535238 87661] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.535256 87661] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.535336 87661] Source file: module.main.c
+[2022-09-16T11:54:52.535341 87661] Object file: module.main.o
+[2022-09-16T11:54:52.535353 87661] Trying direct lookup
+[2022-09-16T11:54:52.535431 87661] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/a/e/b2f1bd953a77e88241ffd43c7e8d6e-22407.manifest
+[2022-09-16T11:54:52.536484 87658] Got object file hash from manifest
+[2022-09-16T11:54:52.536551 87658] Copying /home/derek/.cache/Nuitka/ccache/2/8/add9128949321da8a24e83ca6e3c3c-918039.o to module.__parents_main__.o via module.__parents_main__.o.derek-Latitude-7480.87658.7F3lpw (uncompressed)
+[2022-09-16T11:54:52.536682 87658] Created from cache: /home/derek/.cache/Nuitka/ccache/2/8/add9128949321da8a24e83ca6e3c3c-918039.o -> module.__parents_main__.o
+[2022-09-16T11:54:52.536696 87658] Succeeded getting cached result
+[2022-09-16T11:54:52.536702 87658] Result: cache hit (direct)
+[2022-09-16T11:54:52.536716 87658] Acquired lock /home/derek/.cache/Nuitka/ccache/2/stats.lock
+[2022-09-16T11:54:52.536799 87658] Releasing lock /home/derek/.cache/Nuitka/ccache/2/stats.lock
+[2022-09-16T11:54:52.536804 87658] Unlink /home/derek/.cache/Nuitka/ccache/2/stats.lock
+[2022-09-16T11:54:52.541207 87661] Got object file hash from manifest
+[2022-09-16T11:54:52.541288 87661] Copying /home/derek/.cache/Nuitka/ccache/5/c/b290af03573f3366676a785b2dedeb-780919.o to module.main.o via module.main.o.derek-Latitude-7480.87661.mQeZDI (uncompressed)
+[2022-09-16T11:54:52.541349 87661] Created from cache: /home/derek/.cache/Nuitka/ccache/5/c/b290af03573f3366676a785b2dedeb-780919.o -> module.main.o
+[2022-09-16T11:54:52.541363 87661] Succeeded getting cached result
+[2022-09-16T11:54:52.541368 87661] Result: cache hit (direct)
+[2022-09-16T11:54:52.541382 87661] Acquired lock /home/derek/.cache/Nuitka/ccache/5/stats.lock
+[2022-09-16T11:54:52.541463 87661] Releasing lock /home/derek/.cache/Nuitka/ccache/5/stats.lock
+[2022-09-16T11:54:52.541467 87661] Unlink /home/derek/.cache/Nuitka/ccache/5/stats.lock
+[2022-09-16T11:54:52.549806 87665] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.549806 87665] Config: (default) base_dir = 
+[2022-09-16T11:54:52.549806 87665] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.549806 87665] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.549806 87665] Config: (default) compiler = 
+[2022-09-16T11:54:52.549806 87665] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.549806 87665] Config: (default) compression = false
+[2022-09-16T11:54:52.549806 87665] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.549806 87665] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.549806 87665] Config: (default) debug = false
+[2022-09-16T11:54:52.549806 87665] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.549806 87665] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.549806 87665] Config: (default) disable = false
+[2022-09-16T11:54:52.549806 87665] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.549806 87665] Config: (default) hard_link = false
+[2022-09-16T11:54:52.549806 87665] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.549806 87665] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.549806 87665] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.549806 87665] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.549806 87665] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.549806 87665] Config: (default) max_files = 0
+[2022-09-16T11:54:52.549806 87665] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.549806 87665] Config: (default) path = 
+[2022-09-16T11:54:52.549806 87665] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.549806 87665] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.549806 87665] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.549806 87665] Config: (default) read_only = false
+[2022-09-16T11:54:52.549806 87665] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.549806 87665] Config: (default) recache = false
+[2022-09-16T11:54:52.549806 87665] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.549806 87665] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.549806 87665] Config: (default) stats = true
+[2022-09-16T11:54:52.549806 87665] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.549806 87665] Config: (default) umask = 
+[2022-09-16T11:54:52.549867 87665] Command line: /usr/bin/ccache /usr/bin/gcc -o module.multiprocessing-postLoad.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src module.multiprocessing-postLoad.c
+[2022-09-16T11:54:52.549887 87665] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.549906 87665] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.549996 87665] Source file: module.multiprocessing-postLoad.c
+[2022-09-16T11:54:52.550001 87665] Object file: module.multiprocessing-postLoad.o
+[2022-09-16T11:54:52.550013 87665] Trying direct lookup
+[2022-09-16T11:54:52.550210 87665] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/e/7/099acb927d4bcbd3b128e108d08e0a-66909.manifest
+[2022-09-16T11:54:52.554212 87667] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.554212 87667] Config: (default) base_dir = 
+[2022-09-16T11:54:52.554212 87667] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.554212 87667] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.554212 87667] Config: (default) compiler = 
+[2022-09-16T11:54:52.554212 87667] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.554212 87667] Config: (default) compression = false
+[2022-09-16T11:54:52.554212 87667] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.554212 87667] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.554212 87667] Config: (default) debug = false
+[2022-09-16T11:54:52.554212 87667] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.554212 87667] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.554212 87667] Config: (default) disable = false
+[2022-09-16T11:54:52.554212 87667] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.554212 87667] Config: (default) hard_link = false
+[2022-09-16T11:54:52.554212 87667] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.554212 87667] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.554212 87667] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.554212 87667] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.554212 87667] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.554212 87667] Config: (default) max_files = 0
+[2022-09-16T11:54:52.554212 87667] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.554212 87667] Config: (default) path = 
+[2022-09-16T11:54:52.554212 87667] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.554212 87667] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.554212 87667] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.554212 87667] Config: (default) read_only = false
+[2022-09-16T11:54:52.554212 87667] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.554212 87667] Config: (default) recache = false
+[2022-09-16T11:54:52.554212 87667] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.554212 87667] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.554212 87667] Config: (default) stats = true
+[2022-09-16T11:54:52.554212 87667] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.554212 87667] Config: (default) umask = 
+[2022-09-16T11:54:52.554249 87667] Command line: /usr/bin/ccache /usr/bin/gcc -o module.multiprocessing-preLoad.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src module.multiprocessing-preLoad.c
+[2022-09-16T11:54:52.554263 87667] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.554276 87667] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.554329 87667] Source file: module.multiprocessing-preLoad.c
+[2022-09-16T11:54:52.554332 87667] Object file: module.multiprocessing-preLoad.o
+[2022-09-16T11:54:52.554341 87667] Trying direct lookup
+[2022-09-16T11:54:52.554405 87667] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/1/c/64687505809e2a8cba117119191c74-24418.manifest
+[2022-09-16T11:54:52.556458 87665] Got object file hash from manifest
+[2022-09-16T11:54:52.556564 87665] Copying /home/derek/.cache/Nuitka/ccache/7/d/7f8b2abb4423d40253e751e38b2b02-823775.o to module.multiprocessing-postLoad.o via module.multiprocessing-postLoad.o.derek-Latitude-7480.87665.pt86J1 (uncompressed)
+[2022-09-16T11:54:52.556699 87665] Created from cache: /home/derek/.cache/Nuitka/ccache/7/d/7f8b2abb4423d40253e751e38b2b02-823775.o -> module.multiprocessing-postLoad.o
+[2022-09-16T11:54:52.556722 87665] Succeeded getting cached result
+[2022-09-16T11:54:52.556731 87665] Result: cache hit (direct)
+[2022-09-16T11:54:52.556751 87665] Acquired lock /home/derek/.cache/Nuitka/ccache/7/stats.lock
+[2022-09-16T11:54:52.556883 87665] Releasing lock /home/derek/.cache/Nuitka/ccache/7/stats.lock
+[2022-09-16T11:54:52.556889 87665] Unlink /home/derek/.cache/Nuitka/ccache/7/stats.lock
+[2022-09-16T11:54:52.560256 87667] Got object file hash from manifest
+[2022-09-16T11:54:52.560349 87667] Copying /home/derek/.cache/Nuitka/ccache/2/8/6239f22271ee99dd69f4d84924b32d-782625.o to module.multiprocessing-preLoad.o via module.multiprocessing-preLoad.o.derek-Latitude-7480.87667.I21EL9 (uncompressed)
+[2022-09-16T11:54:52.560431 87667] Created from cache: /home/derek/.cache/Nuitka/ccache/2/8/6239f22271ee99dd69f4d84924b32d-782625.o -> module.multiprocessing-preLoad.o
+[2022-09-16T11:54:52.560448 87667] Succeeded getting cached result
+[2022-09-16T11:54:52.560455 87667] Result: cache hit (direct)
+[2022-09-16T11:54:52.560472 87667] Acquired lock /home/derek/.cache/Nuitka/ccache/2/stats.lock
+[2022-09-16T11:54:52.560628 87667] Releasing lock /home/derek/.cache/Nuitka/ccache/2/stats.lock
+[2022-09-16T11:54:52.560634 87667] Unlink /home/derek/.cache/Nuitka/ccache/2/stats.lock
+[2022-09-16T11:54:52.565093 87670] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.565093 87670] Config: (default) base_dir = 
+[2022-09-16T11:54:52.565093 87670] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.565093 87670] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.565093 87670] Config: (default) compiler = 
+[2022-09-16T11:54:52.565093 87670] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.565093 87670] Config: (default) compression = false
+[2022-09-16T11:54:52.565093 87670] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.565093 87670] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.565093 87670] Config: (default) debug = false
+[2022-09-16T11:54:52.565093 87670] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.565093 87670] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.565093 87670] Config: (default) disable = false
+[2022-09-16T11:54:52.565093 87670] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.565093 87670] Config: (default) hard_link = false
+[2022-09-16T11:54:52.565093 87670] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.565093 87670] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.565093 87670] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.565093 87670] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.565093 87670] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.565093 87670] Config: (default) max_files = 0
+[2022-09-16T11:54:52.565093 87670] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.565093 87670] Config: (default) path = 
+[2022-09-16T11:54:52.565093 87670] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.565093 87670] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.565093 87670] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.565093 87670] Config: (default) read_only = false
+[2022-09-16T11:54:52.565093 87670] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.565093 87670] Config: (default) recache = false
+[2022-09-16T11:54:52.565093 87670] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.565093 87670] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.565093 87670] Config: (default) stats = true
+[2022-09-16T11:54:52.565093 87670] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.565093 87670] Config: (default) umask = 
+[2022-09-16T11:54:52.565132 87670] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src static_src/MainProgram.c
+[2022-09-16T11:54:52.565146 87670] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.565158 87670] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.565215 87670] Source file: static_src/MainProgram.c
+[2022-09-16T11:54:52.565218 87670] Object file: static_src/MainProgram.o
+[2022-09-16T11:54:52.565227 87670] Trying direct lookup
+[2022-09-16T11:54:52.565314 87670] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/1/4/ccf9f807b20274033f9c25a99a9eb6-36419.manifest
+[2022-09-16T11:54:52.571007 87670] Got object file hash from manifest
+[2022-09-16T11:54:52.571108 87670] Copying /home/derek/.cache/Nuitka/ccache/8/1/ac791f497c2cf38e01b810cf6e430b-780607.o to static_src/MainProgram.o via static_src/MainProgram.o.derek-Latitude-7480.87670.kMSg1m (uncompressed)
+[2022-09-16T11:54:52.571187 87670] Created from cache: /home/derek/.cache/Nuitka/ccache/8/1/ac791f497c2cf38e01b810cf6e430b-780607.o -> static_src/MainProgram.o
+[2022-09-16T11:54:52.571206 87670] Succeeded getting cached result
+[2022-09-16T11:54:52.571213 87670] Result: cache hit (direct)
+[2022-09-16T11:54:52.571231 87670] Acquired lock /home/derek/.cache/Nuitka/ccache/8/stats.lock
+[2022-09-16T11:54:52.571348 87670] Releasing lock /home/derek/.cache/Nuitka/ccache/8/stats.lock
+[2022-09-16T11:54:52.571354 87670] Unlink /home/derek/.cache/Nuitka/ccache/8/stats.lock
+[2022-09-16T11:54:52.573016 87673] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.573016 87673] Config: (default) base_dir = 
+[2022-09-16T11:54:52.573016 87673] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.573016 87673] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.573016 87673] Config: (default) compiler = 
+[2022-09-16T11:54:52.573016 87673] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.573016 87673] Config: (default) compression = false
+[2022-09-16T11:54:52.573016 87673] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.573016 87673] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.573016 87673] Config: (default) debug = false
+[2022-09-16T11:54:52.573016 87673] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.573016 87673] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.573016 87673] Config: (default) disable = false
+[2022-09-16T11:54:52.573016 87673] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.573016 87673] Config: (default) hard_link = false
+[2022-09-16T11:54:52.573016 87673] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.573016 87673] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.573016 87673] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.573016 87673] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.573016 87673] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.573016 87673] Config: (default) max_files = 0
+[2022-09-16T11:54:52.573016 87673] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.573016 87673] Config: (default) path = 
+[2022-09-16T11:54:52.573016 87673] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.573016 87673] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.573016 87673] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.573016 87673] Config: (default) read_only = false
+[2022-09-16T11:54:52.573016 87673] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.573016 87673] Config: (default) recache = false
+[2022-09-16T11:54:52.573016 87673] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.573016 87673] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.573016 87673] Config: (default) stats = true
+[2022-09-16T11:54:52.573016 87673] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.573016 87673] Config: (default) umask = 
+[2022-09-16T11:54:52.573074 87673] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCellType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2022-09-16T11:54:52.573108 87673] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.573126 87673] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.573206 87673] Source file: static_src/CompiledCellType.c
+[2022-09-16T11:54:52.573211 87673] Object file: static_src/CompiledCellType.o
+[2022-09-16T11:54:52.573224 87673] Trying direct lookup
+[2022-09-16T11:54:52.573274 87673] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/4/9/ab20b3aeb3503be70cc7b2606b3005-8384.manifest
+[2022-09-16T11:54:52.578498 87673] Got object file hash from manifest
+[2022-09-16T11:54:52.578573 87673] Copying /home/derek/.cache/Nuitka/ccache/d/e/c29bb4618087c02087121f9392687d-776284.o to static_src/CompiledCellType.o via static_src/CompiledCellType.o.derek-Latitude-7480.87673.gHbjtA (uncompressed)
+[2022-09-16T11:54:52.578631 87673] Created from cache: /home/derek/.cache/Nuitka/ccache/d/e/c29bb4618087c02087121f9392687d-776284.o -> static_src/CompiledCellType.o
+[2022-09-16T11:54:52.578644 87673] Succeeded getting cached result
+[2022-09-16T11:54:52.578650 87673] Result: cache hit (direct)
+[2022-09-16T11:54:52.578663 87673] Acquired lock /home/derek/.cache/Nuitka/ccache/d/stats.lock
+[2022-09-16T11:54:52.578744 87673] Releasing lock /home/derek/.cache/Nuitka/ccache/d/stats.lock
+[2022-09-16T11:54:52.578748 87673] Unlink /home/derek/.cache/Nuitka/ccache/d/stats.lock
+[2022-09-16T11:54:52.651121 87676] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.651121 87676] Config: (default) base_dir = 
+[2022-09-16T11:54:52.651121 87676] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.651121 87676] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.651121 87676] Config: (default) compiler = 
+[2022-09-16T11:54:52.651121 87676] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.651121 87676] Config: (default) compression = false
+[2022-09-16T11:54:52.651121 87676] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.651121 87676] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.651121 87676] Config: (default) debug = false
+[2022-09-16T11:54:52.651121 87676] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.651121 87676] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.651121 87676] Config: (default) disable = false
+[2022-09-16T11:54:52.651121 87676] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.651121 87676] Config: (default) hard_link = false
+[2022-09-16T11:54:52.651121 87676] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.651121 87676] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.651121 87676] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.651121 87676] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.651121 87676] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.651121 87676] Config: (default) max_files = 0
+[2022-09-16T11:54:52.651121 87676] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.651121 87676] Config: (default) path = 
+[2022-09-16T11:54:52.651121 87676] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.651121 87676] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.651121 87676] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.651121 87676] Config: (default) read_only = false
+[2022-09-16T11:54:52.651121 87676] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.651121 87676] Config: (default) recache = false
+[2022-09-16T11:54:52.651121 87676] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.651121 87676] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.651121 87676] Config: (default) stats = true
+[2022-09-16T11:54:52.651121 87676] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.651121 87676] Config: (default) umask = 
+[2022-09-16T11:54:52.651181 87676] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2022-09-16T11:54:52.651200 87676] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.651219 87676] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.651276 87676] Source file: static_src/CompiledFunctionType.c
+[2022-09-16T11:54:52.651279 87676] Object file: static_src/CompiledFunctionType.o
+[2022-09-16T11:54:52.651287 87676] Trying direct lookup
+[2022-09-16T11:54:52.651526 87676] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/d/c/4e934d4366a667f9a9a518e0201325-97988.manifest
+[2022-09-16T11:54:52.663614 87679] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.663614 87679] Config: (default) base_dir = 
+[2022-09-16T11:54:52.663614 87679] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.663614 87679] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.663614 87679] Config: (default) compiler = 
+[2022-09-16T11:54:52.663614 87679] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.663614 87679] Config: (default) compression = false
+[2022-09-16T11:54:52.663614 87679] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.663614 87679] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.663614 87679] Config: (default) debug = false
+[2022-09-16T11:54:52.663614 87679] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.663614 87679] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.663614 87679] Config: (default) disable = false
+[2022-09-16T11:54:52.663614 87679] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.663614 87679] Config: (default) hard_link = false
+[2022-09-16T11:54:52.663614 87679] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.663614 87679] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.663614 87679] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.663614 87679] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.663614 87679] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.663614 87679] Config: (default) max_files = 0
+[2022-09-16T11:54:52.663614 87679] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.663614 87679] Config: (default) path = 
+[2022-09-16T11:54:52.663614 87679] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.663614 87679] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.663614 87679] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.663614 87679] Config: (default) read_only = false
+[2022-09-16T11:54:52.663614 87679] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.663614 87679] Config: (default) recache = false
+[2022-09-16T11:54:52.663614 87679] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.663614 87679] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.663614 87679] Config: (default) stats = true
+[2022-09-16T11:54:52.663614 87679] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.663614 87679] Config: (default) umask = 
+[2022-09-16T11:54:52.663673 87679] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledGeneratorType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2022-09-16T11:54:52.663691 87679] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.663709 87679] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.663788 87679] Source file: static_src/CompiledGeneratorType.c
+[2022-09-16T11:54:52.663793 87679] Object file: static_src/CompiledGeneratorType.o
+[2022-09-16T11:54:52.663805 87679] Trying direct lookup
+[2022-09-16T11:54:52.663954 87679] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/9/d/9f6a7387bb7245fd2513538b860645-61206.manifest
+[2022-09-16T11:54:52.666229 87676] Got object file hash from manifest
+[2022-09-16T11:54:52.666317 87676] Copying /home/derek/.cache/Nuitka/ccache/6/5/26cb3bca144cebb9c5963a74dfc75f-3214735.o to static_src/CompiledFunctionType.o via static_src/CompiledFunctionType.o.derek-Latitude-7480.87676.8WvfLO (uncompressed)
+[2022-09-16T11:54:52.668555 87676] Created from cache: /home/derek/.cache/Nuitka/ccache/6/5/26cb3bca144cebb9c5963a74dfc75f-3214735.o -> static_src/CompiledFunctionType.o
+[2022-09-16T11:54:52.668582 87676] Succeeded getting cached result
+[2022-09-16T11:54:52.668590 87676] Result: cache hit (direct)
+[2022-09-16T11:54:52.668610 87676] Acquired lock /home/derek/.cache/Nuitka/ccache/6/stats.lock
+[2022-09-16T11:54:52.668716 87676] Releasing lock /home/derek/.cache/Nuitka/ccache/6/stats.lock
+[2022-09-16T11:54:52.668721 87676] Unlink /home/derek/.cache/Nuitka/ccache/6/stats.lock
+[2022-09-16T11:54:52.670233 87679] Got object file hash from manifest
+[2022-09-16T11:54:52.670336 87679] Copying /home/derek/.cache/Nuitka/ccache/d/4/2189380c444aac6ac82706dd2882ea-965110.o to static_src/CompiledGeneratorType.o via static_src/CompiledGeneratorType.o.derek-Latitude-7480.87679.PrlBn3 (uncompressed)
+[2022-09-16T11:54:52.670588 87679] Created from cache: /home/derek/.cache/Nuitka/ccache/d/4/2189380c444aac6ac82706dd2882ea-965110.o -> static_src/CompiledGeneratorType.o
+[2022-09-16T11:54:52.670603 87679] Succeeded getting cached result
+[2022-09-16T11:54:52.670609 87679] Result: cache hit (direct)
+[2022-09-16T11:54:52.670622 87679] Acquired lock /home/derek/.cache/Nuitka/ccache/d/stats.lock
+[2022-09-16T11:54:52.670698 87679] Releasing lock /home/derek/.cache/Nuitka/ccache/d/stats.lock
+[2022-09-16T11:54:52.670703 87679] Unlink /home/derek/.cache/Nuitka/ccache/d/stats.lock
+[2022-09-16T11:54:52.671951 87682] === CCACHE 3.7.7 STARTED =========================================
+[2022-09-16T11:54:52.671951 87682] Config: (default) base_dir = 
+[2022-09-16T11:54:52.671951 87682] Config: (environment) cache_dir = /home/derek/.cache/Nuitka/ccache
+[2022-09-16T11:54:52.671951 87682] Config: (default) cache_dir_levels = 2
+[2022-09-16T11:54:52.671951 87682] Config: (default) compiler = 
+[2022-09-16T11:54:52.671951 87682] Config: (default) compiler_check = mtime
+[2022-09-16T11:54:52.671951 87682] Config: (default) compression = false
+[2022-09-16T11:54:52.671951 87682] Config: (default) compression_level = 6
+[2022-09-16T11:54:52.671951 87682] Config: (default) cpp_extension = 
+[2022-09-16T11:54:52.671951 87682] Config: (default) debug = false
+[2022-09-16T11:54:52.671951 87682] Config: (default) depend_mode = false
+[2022-09-16T11:54:52.671951 87682] Config: (default) direct_mode = true
+[2022-09-16T11:54:52.671951 87682] Config: (default) disable = false
+[2022-09-16T11:54:52.671951 87682] Config: (default) extra_files_to_hash = 
+[2022-09-16T11:54:52.671951 87682] Config: (default) hard_link = false
+[2022-09-16T11:54:52.671951 87682] Config: (default) hash_dir = true
+[2022-09-16T11:54:52.671951 87682] Config: (default) ignore_headers_in_manifest = 
+[2022-09-16T11:54:52.671951 87682] Config: (default) keep_comments_cpp = false
+[2022-09-16T11:54:52.671951 87682] Config: (default) limit_multiple = 0.8
+[2022-09-16T11:54:52.671951 87682] Config: (environment) log_file = /home/derek/PycharmProjects/ExamplePythonCompiling/init.build/ccache-87632.txt
+[2022-09-16T11:54:52.671951 87682] Config: (default) max_files = 0
+[2022-09-16T11:54:52.671951 87682] Config: (/home/derek/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2022-09-16T11:54:52.671951 87682] Config: (default) path = 
+[2022-09-16T11:54:52.671951 87682] Config: (default) pch_external_checksum = false
+[2022-09-16T11:54:52.671951 87682] Config: (default) prefix_command = 
+[2022-09-16T11:54:52.671951 87682] Config: (default) prefix_command_cpp = 
+[2022-09-16T11:54:52.671951 87682] Config: (default) read_only = false
+[2022-09-16T11:54:52.671951 87682] Config: (default) read_only_direct = false
+[2022-09-16T11:54:52.671951 87682] Config: (default) recache = false
+[2022-09-16T11:54:52.671951 87682] Config: (default) run_second_cpp = true
+[2022-09-16T11:54:52.671951 87682] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-16T11:54:52.671951 87682] Config: (default) stats = true
+[2022-09-16T11:54:52.671951 87682] Config: (default) temporary_dir = 
+[2022-09-16T11:54:52.671951 87682] Config: (default) umask = 
+[2022-09-16T11:54:52.671989 87682] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/InspectPatcher.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=151 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.8 -I. -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/include -I/home/derek/.local/lib/python3.8/site-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2022-09-16T11:54:52.672002 87682] Hostname: derek-Latitude-7480
+[2022-09-16T11:54:52.672015 87682] Working directory: /home/derek/PycharmProjects/ExamplePythonCompiling/init.build
+[2022-09-16T11:54:52.672072 87682] Source file: static_src/InspectPatcher.c
+[2022-09-16T11:54:52.672075 87682] Object file: static_src/InspectPatcher.o
+[2022-09-16T11:54:52.672084 87682] Trying direct lookup
+[2022-09-16T11:54:52.672145 87682] Looking for object file hash in /home/derek/.cache/Nuitka/ccache/4/0/60915f2074c948a06ba2ad1421d1eb-12947.manifest
+[2022-09-16T11:54:52.677141 87682] Got object file hash from manifest
+[2022-09-16T11:54:52.677207 87682] Copying /home/derek/.cache/Nuitka/ccache/b/1/09426be77fa10216627321c1be6f00-780286.o to static_src/InspectPatcher.o via static_src/InspectPatcher.o.derek-Latitude-7480.87682.uwfE3k (uncompressed)
+[2022-09-16T11:54:52.677267 87682] Created from cache: /home/derek/.cache/Nuitka/ccache/b/1/09426be77fa10216627321c1be6f00-780286.o -> static_src/InspectPatcher.o
+[2022-09-16T11:54:52.677280 87682] Succeeded getting cached result
+[2022-09-16T11:54:52.677285 87682] Result: cache hit (direct)
+[2022-09-16T11:54:52.677298 87682] Acquired lock /home/derek/.cache/Nuitka/ccache/b/stats.lock
+[2022-09-16T11:54:52.677377 87682] Releasing lock /home/derek/.cache/Nuitka/ccache/b/stats.lock
+[2022-09-16T11:54:52.677381 87682] Unlink /home/derek/.cache/Nuitka/ccache/b/stats.lock
