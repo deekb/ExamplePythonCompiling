@@ -1,2 +1,3 @@
 #!/bin/bash
-nuitka3 --onefile --standalone ./init.py --include-data-file=./hashes.md5=./default.conf --include-data-file=./main.conf=./main.conf --include-data-file=./main.py=./main.py --include-data-file=./README.md=./README.md --include-data-file=./hashes.md5=./hashes.md5 -o ./init
+export PROGNAME="Example Python Compiling"
+nuitka3 --onefile --standalone --include-data-file=./hashes.md5=./default.conf --include-data-file=./main.conf=./main.conf --include-data-file=./Scripts/main.py=./Scripts/main.py --include-data-file=./README.md=./README.md --output-dir=/tmp/nuitka/ --remove-output -o "./Generated-Binaries/$PROGNAME" ./Scripts/init.py
